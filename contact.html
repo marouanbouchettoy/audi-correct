@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Audi-Correct</title>
+    <meta name="description"
+        content="Contactez Audi-Correct pour prendre rendez-vous. Cabinets à Rabat et Kénitra. Téléphone, email et formulaire de contact disponibles.">
+    <meta name="keywords"
+        content="contact, rendez-vous, audioprothésiste, Rabat, Kénitra, téléphone, email, consultation">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.audi-correct.ma/contact">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact - Audi-Correct">
+    <meta property="og:description" content="Prenez rendez-vous avec nos spécialistes à Rabat et Kénitra">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.audi-correct.ma/contact">
+
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">
+                <img src="./assets/img/logo.png" alt="Audi-Correct Logo">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="mobile-menu" id="mobileMenu">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Contactez-nous</h1>
+                <p class="hero-subtitle">Prenez rendez-vous dans nos cabinets de Rabat et Kénitra</p>
+                <a href="#contact" class="cta-button">Prendre rendez-vous</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Nous Contacter</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3>Prendre rendez-vous</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Ville préférée</label>
+                            <select id="city" name="city" required>
+                                <option value="">Choisir une ville</option>
+                                <option value="rabat">Rabat</option>
+                                <option value="kenitra">Kénitra</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service demandé</label>
+                            <select id="service" name="service" required>
+                                <option value="">Choisir un service</option>
+                                <option value="consultation">Consultation audiologique</option>
+                                <option value="appareils">Appareils auditifs</option>
+                                <option value="reparation">Réparation & Entretien</option>
+                                <option value="protection">Protection auditive</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Décrivez votre demande..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Envoyer</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Informations de contact</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Nos Adresses</strong><br>
+                            <strong>Rabat:</strong> Résidence Soraya, Imm. n°66, Appt. n°4, Rue Tansift<br>
+                            <strong>Kénitra:</strong> Quartier Centre Ville RES Centre kenitra Mall, 22 Av. Mohamed Diouri<br>
+                            Maroc
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <strong>Téléphones</strong><br>
+                            <strong>Rabat:</strong> +212 5 30 43 31 44<br>
+                            <strong>Kénitra:</strong> +212 5 37 36 78 35
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <strong>Email</strong><br>
+                            audicorrecte1@gmail.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🕒</span>
+                        <div>
+                            <strong>Horaires</strong><br>
+                            <strong>Rabat & Kénitra:</strong><br>
+                            Lun-Ven: 9h-18h<br>
+                            Sam: 9h-13h<br>
+                            Dim: Fermé
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="about" style="background: var(--white);">
+        <div class="container">
+            <h2 class="section-title">Nos Localisations</h2>
+            <div class="map-container" style="text-align: center;">
+                <iframe
+                    src="https://www.google.com/maps/d/embed?mid=1UK3ZdKRVy8_idSBIa9ygrCjUSlMUb84&amp;ehbc=2E312F&amp;noprof=1"
+                    width="100%" height="400"
+                    style="border: none; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact Section -->
+    <section class="services" style="background: var(--light-pink);">
+        <div class="container">
+            <h2 class="section-title">Contacts d'Urgence</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🚨</div>
+                    <h3>Urgence Rabat</h3>
+                    <p>Pour les urgences audiologiques à Rabat, contactez-nous immédiatement au +212 5 37 XX XX XX</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚨</div>
+                    <h3>Urgence Kénitra</h3>
+                    <p>Pour les urgences audiologiques à Kénitra, contactez-nous immédiatement au +212 5 37 XX XX XX</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💬</div>
+                    <h3>Chat en Ligne</h3>
+                    <p>Service de chat disponible du lundi au vendredi de 9h à 18h pour répondre à vos questions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📧</div>
+                    <h3>Support Email</h3>
+                    <p>Envoyez vos questions à support@audi-correct.ma. Réponse garantie sous 24h.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="about" style="background: var(--white);">
+        <div class="container">
+            <h2 class="section-title">Questions Fréquentes</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Comment prendre rendez-vous ?</h3>
+                    <p>Vous pouvez prendre rendez-vous en remplissant le formulaire ci-dessus, en nous appelant
+                        directement ou en nous envoyant un email.</p>
+
+                    <h3>Quels sont les délais pour un rendez-vous ?</h3>
+                    <p>Nous nous efforçons de vous proposer un rendez-vous dans les 48h suivant votre demande. Pour les
+                        urgences, nous proposons des créneaux le jour même.</p>
+
+                    <h3>Dois-je apporter quelque chose lors de ma première visite ?</h3>
+                    <p>Apportez votre carte d'identité, votre carte de mutuelle si vous en avez une, et tout document
+                        médical relatif à votre audition.</p>
+                </div>
+                <div class="about-image">
+                    ❓
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Audi-Correct. Tous droits réservés. | Cabinet d'audioprothèse à Rabat et Kénitra</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/visitor-counter.js"></script>
+</body>
+
+</html>
